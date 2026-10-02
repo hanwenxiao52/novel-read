@@ -1,0 +1,23 @@
+# Operating system and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+
+# Logs and local environment secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Local-only infrastructure and database data
+/docker/
+/novel/doc/sql/
+
+# Java build output
+**/target/
+*.class
+
+# Frontend dependencies and generated output
+/novel-front-web/node_modules/
+/novel-front-web/dist/
